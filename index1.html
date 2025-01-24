@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-sharp fa-regular fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <h3>Hi, Myself Harini, and I'm a <span class="floating-text">Front-End Developer.</span></h3>
+            <div class="home-content"></div>
+            <p>
+                I am a dedicated and hardworking individual with a strong passion for front-end development. 
+                My skills include HTML, CSS, JavaScript, and Bootstrap, and I enjoy creating responsive, 
+                user-friendly interfaces. I am always eager to learn and enhance my skills while staying 
+                updated on the latest trends. My focus is on delivering clean, efficient code and excellent 
+                user experiences. I am committed to contributing to projects with creativity and attention 
+                to detail.
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/harini-p-786965268/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/03harini" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="image.jpeg" alt="" width="300" height="300">
+            </div>
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>
+                    I am a <span class="floating-text">Front-End Developer</span> With a strong passion for creating responsive and user-friendly interfaces. 
+                    I completed a 14-day internship at AccentTechnosoft, where I dedicated myself to mastering HTML, CSS, 
+                    and Bootstrap. This experience allowed me to enhance my skills and contribute effectively to projects 
+                    while maintaining a focus on delivering clean and efficient code.
+                </p>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Bachelor of Engineering in Electronics and Telecommunications Engineering</h3>
+                    <h4>Karpagam College of Engineering</h4>
+                    <p><i>2022 - 2026</i></p>
+                    <p>Pursuing a Bachelor's degree with a focus on Electronics and Telecommunications Engineering.</p>
+                    <p><strong>Current Percentage:</strong> 8.46%</p>
+                </div>
+                <div class="education-item">
+                    <h3>12th Grade</h3>
+                    <h4>San Jose Matriculation Higher Secondary School</h4>
+                    <p><i>2021 - 2022</i></p>
+                    <p>Completed 12th grade with a focus on Computer science and Mathematics.</p>
+                    <p><strong>Percentage:</strong> 89.9%</p>
+                </div>
+                <div class="education-item">
+                    <h3>10th Grade</h3>
+                    <h4>San Jose Matriculation Higher Secondary School</h4>
+                    <p><i>2019 - 2020</i></p>
+                    <p><strong>Percentage:</strong> 75.3%</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills-content">
+                <div class="skill-item">
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width:90%;"></div>
+                    </div>
+                    <span>90%</span>
+                </div>
+                <div class="skill-item">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-item">
+                    <h3>Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                    <span>80%</span>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <form action="#" method="post" class="contact-form">
+                    <div class="input-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="contact">Your Contact</label>
+                        <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+</body>
+</html>
